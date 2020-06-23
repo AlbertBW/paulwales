@@ -37,6 +37,7 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.primary }};
+
 }
 
 a:hover,
@@ -119,7 +120,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    margin-bottom: 150px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
@@ -268,7 +271,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #fed136;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
@@ -285,6 +288,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    text-align: left;
     margin-bottom: 25px;
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 22px;
@@ -293,6 +297,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+    text-align: left;
     margin-bottom: 25px;
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 60px;
@@ -302,14 +307,18 @@ header .intro-text .intro-heading {
 }
 
 header .intro-socials {
-    margin-bottom: 25px;
+    margin-bottom: 200px;
+    margin-right: 700px;
+
 }
 
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 65px;
+        padding-left: 80px;
+        padding-right: 10px;
     }
 
     header .intro-text .intro-lead-in {
@@ -321,7 +330,7 @@ header .intro-socials {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 5px;
 
         font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
         font-size: 60px;
